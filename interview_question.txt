@@ -1,0 +1,213 @@
+------------------------------------------------------->>>>>>>>>>>>>>>>>(Top 20 Python Interview Question)<<<<<<<<<<<<------------------------------------------------------
+
+Question 1 :- Different Between List and Tuples ?
+
+List: --->>>>>
+
+1. List are Imuteable.
+2. We can perform Updation, Deletion & Insertion 
+3. List is slower then Tuple 
+4. List consume more memory.
+
+Tuple:---->>>>>>>
+
+1. Tuples are Muteable
+2. We can perform Updation , Deletion & Insertion.
+3. Tuple is faster then List because its Immuteabilty
+4. Tuple consume less memory as compare to list
+
+
+Question 2 :- What is Defferent Between find and index in string
+
+Find :- ----------->>>>>>>
+
+1. Find is used to give the index value of a sequence.
+2. Find is work only with string.
+3. In find if our substring is not present then it give output (-1)
+
+Index:  ------------>>>>>>
+
+1. Index is also used to give the index value of 
+2. Index will work string, Tuple as well as List
+3. if our substring is not present in any sequence then it will give an error
+
+
+Question 3 :- What is Different Between discard and remove ?
+
+Remove:- -------->>>>>>>
+ 
+1. Remove work with list and set as well
+2. Remove will delete with give element from list or set
+3. Remove will never give you delete element in list or set.If try to see the element then it will give output as None.
+4. If the given element is not present in set or list then it will give an error
+
+Discard:------>>>>>>>>>>
+
+1. Discard work with only set
+2. Discard is also used to delete the element in set
+3. With Discard you also can't see the deleted element. If try to see the element then it will give output as None.
+4. If the given element is not present in discard then it will give never give you an error. it will return same set as it as.
+
+
+Question 4 :- What is Break , Contiune and Pass Statement and what it will do ?
+
+Break :--->>>
+
+1. Break will stop the iteration for that means if you are using break statement in any condition or loop then it will stop iteration 
+   for that loop or condition.
+
+Contiune ----->>>>>
+
+1. Contiune will skip the element for that if you are using contiune statement in any condition or loop then it will skop iteration 
+   for that loop or condition.
+
+Pass --------->>>>>
+
+1. Pass will do nothing if you are using pass statement inside any condition or loops then it will pass the element for that 
+
+Question 5 :- What is means with Oops ?
+
+Answer :- Oops stand for object Oriented Programing it just programing concept where each and every things will be bind in 
+	  Object and classes.
+
+Question 6 :- What is class and Object ?
+
+Answer :-
+ Class :- Binding the Data/Variables/ Properties and Method/Function in a single unit is nothing but an class
+          and it is blue print of an object.
+ 	 
+Object :- Any real world intity and physical exsitance of an class nothing but is an object. 
+
+
+Question 7 :- What is Access Modifiers in Oops ?
+
+Answer :- Access Modifier are keyword in Object Oriented Programing Language that are use to set the Access bility of classe and Method.
+
+Question 8 :- What the types of Access Modifiers in Object Oriented Programing ?
+
+Anwer :- 
+1. Public Access Modifier  :- We can Access Public Access Modifier outside the class and indiside the class also.
+2. Private Access Modifier :- We can Access Private Accesss Modifier only inside class only. If we want to access outside the class then we need to use getter and setter method.
+3. Protected Access Modifier  :- We can Access Protected Access Modifier inside the class and inside the preants class and as well as child class.
+
+
+Question 9 :-  What are different between Method Overriding and Overloading ?
+
+Answer :-  Overloading :---->>> If any Method having same name with different argument then such type of concept know as Overloading .
+	   Overinding :--->> If any Method Having same name with having same argument then such type of concept know as Overinding. 
+
+Question 10 :- What is Runtime Polymorphism ?
+
+Answer :- Whatever member are present inside preant class it will also present child class that the concept of Interiance but if child is not satisfy with preant class 
+	  and child is want to implement own. so child can reimplement it own thats the concept of Runtime Polymorphis.
+
+
+Question 11. Write a program to check whether a person is eligible for voting or not. (accept age from user)
+
+Answer :- . 
+	age=int(input("Enter your age"))
+	if age >=18:
+   	    print("Eligible for voting")
+	else:
+            print("not eligible for voting")
+
+Question 12. How do I modify a string in python?
+
+Answer :-  You can’t because strings are immutable in python. In most situations, you should simply construct a new string from the various parts
+ 	   you want to assemble it from. Work with them as lists; turn them into strings only when needed.
+
+	>>> s = list("Hello zorld")
+	>>> s
+	['H', 'e', 'l', 'l', 'o', ' ', 'z', 'o', 'r', 'l', 'd']
+	>>> s[6] = 'W'
+	>>> s
+	['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+	>>> "".join(s)
+	'Hello World' 
+
+Question 13. Write a program to check whether a person is eligible for voting or not. (accept age from user)
+
+Answer :- 
+		age=int(input("Enter your age"))
+		if age >=18:
+   		   print("Eligible for voting")
+		else:
+  		   print("not eligible for voting")
+
+Question 14. Write a Python program to create the multiplication table (from 1 to 10) of a number. Go to the editor
+Expected Output:
+
+Answer :- Input a number: 5                                                       
+          5 x 1 = 5                                                               
+	  5 x 2 = 10                                                              
+	  5 x 3 = 15                                                              
+  	  5 x 4 = 20                                                              
+ 	  5 x 5 = 25                                                              
+	  5 x 6 = 30                                                             
+	  5 x 7 = 35                                                              
+	  5 x 8 = 40                                                              
+	  5 x 9 = 45                                                              
+	  5 x 10 = 50 
+
+Question 15. What are Keywords in Python?
+
+Answer: Keywords in python are reserved words that have special meaning.They are generally used to define type of variables. Keywords cannot be used 
+	for variable or function names. There are following 33 keywords in python-
+
+And      False          Class
+Try      None           Continue
+With     Nonlocal       Del
+Raise    Yield          Finally    
+Assert   Except         From
+Global   Or             Else
+Import   Not		For 
+In       If		While	
+Is       Elif           Break
+As	 Lambda		Return
+Def      Pass		True
+
+        
+Question 16. What is __init__?
+ Answer : __init__ is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. 
+	 All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.
+
+	# class definition
+	class Student:
+   	     def __init__(self, fname, lname, age, section):
+       	                        self.firstname = fname
+       				self.lastname = lname
+       				self.age = age
+       				self.section = section
+	
+	# creating a new object
+	stu1 = Student("Sara", "Ansh", 22, "A2")
+	
+
+Question 17. What is the use of self in Python?
+
+Answer :----->>>Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. 
+		It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, 
+		self is not a keyword in Python.
+
+Question 18. What are the type of Inheritence ?
+
+Answer :------>>>>> There are six types of Inheritence in which five are application in Python.
+		 
+		 1. Single Level Inheritence      }
+		 2. Multi Level Inheritence 	  }
+		 3. Multiple Inheritence	  }-------------------->>>>>In which these five are Application in Python
+		 4. Hierchical Level Inheritence  }
+		 5. Hybrid Level Inheritence	  }
+		 6. Cycle Level Inheritence
+
+Question 19. What are the core Pillars of Object Oriented Programming ?
+
+Answer :------->>>>>>    1. Incapsulation
+			 2. Polymorphims
+			 3. Inheritence
+			 4. Abstraction
+
+Question 20. What is Supper Method in Python ?
+
+Answer :---->>>> For overriding the method of child class method we use Supper Method. 	  
+
